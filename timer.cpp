@@ -1,6 +1,8 @@
 // Related Header
 #include "timer.h"
 
+
+
 // Constructor
 Timer::Timer() {
 	start = 0;

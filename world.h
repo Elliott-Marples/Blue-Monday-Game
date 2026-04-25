@@ -10,14 +10,21 @@
 
 // Project Libraries
 #include "timer.h"
+#include "player.h"
 
 // Definitions
 #define MAX_KEYS (256)
 
+
+
 // Class
 class World {
 private:
+	// Objects
 	Timer timer;
+	Player player;
+
+	// Properties
 	const int DELTA_TIME = 50;
 	bool done = false;
 
@@ -33,7 +40,7 @@ public:
 	bool pressedKeys[MAX_KEYS];
 
 	// Start Functions
-	void Init();
+	void Init(SDL_Window* window, SDL_Renderer* renderer);
 	void Run();
 
 	// Game Loop Functions

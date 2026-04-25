@@ -5,6 +5,9 @@
 // SDL Library
 #include "SDL.h"
 
+
+
+// Class
 class Timer {
 private:
 	int start;
