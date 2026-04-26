@@ -29,6 +29,7 @@ public:
 	int alpha;
 	
 	bool moveUp, moveLeft, moveDown, moveRight;
+	bool shoot;
 	int accelRate, decelRate, maxVelocity;
 
 	World* parent;

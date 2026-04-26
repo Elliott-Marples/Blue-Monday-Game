@@ -77,7 +77,7 @@ void Player::Update() {
 	body.x = x;
 	body.y = y;
 
-	//printf("%i,%i;Velocity X: %i\n%i,%i;Velocity Y: %i\n\n", moveLeft, moveRight, velocity.x, moveUp, moveDown, velocity.y);
+	printf("%i,%i;Velocity X: %i\n%i,%i;Velocity Y: %i\n\n", moveLeft, moveRight, velocity.x, moveUp, moveDown, velocity.y);
 
 	if (moveUp && velocity.y > -(maxVelocity)) {
 		velocity.y -= 1;
