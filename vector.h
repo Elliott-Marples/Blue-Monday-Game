@@ -1,8 +1,6 @@
 #ifndef BLUE_MONDAY_VECTOR_H_
 #define BLUE_MONDAY_VECTOR_H_
 
-#include "SDL.h"
-
 
 
 class Vector {

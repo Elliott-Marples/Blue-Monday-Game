@@ -3,14 +3,15 @@
 
 #include "SDL.h"
 
+#include "sprite.h"
+
 
 
 // Class
 class Splash {
 private:
 	int time;
-	SDL_Rect title;
-	SDL_Rect subtitle;
+	Sprite title;
 
 public:
 	Splash();

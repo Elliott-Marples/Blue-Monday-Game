@@ -1,5 +1,6 @@
 // SDL Library
 #include "SDL.h"
+#include "SDL_image.h"
 
 // Project Libraries
 #include "world.h"
@@ -14,7 +15,7 @@ Splash splash;
 // Main Function
 int main(int argc, char* argv[]) {
 	// Ensures SDL is running
-	if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
+	if (SDL_Init(SDL_INIT_EVERYTHING) < 0 || IMG_Init(SDL_INIT_EVERYTHING) < 0) {
 		return 1;
 	}
 
@@ -33,5 +34,6 @@ int main(int argc, char* argv[]) {
 	// Exits Program
 	world.Quit();
 	SDL_Quit();
+	IMG_Quit();
 	return 0;
 }
