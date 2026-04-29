@@ -1,0 +1,229 @@
+Spawner [0,0] - X: -25, Y: -25
+Spawner [0,0] - X: -25, Y: 745
+Spawner [0,0] - X: 241, Y: -25
+Spawner [0,0] - X: 241, Y: 745
+Spawner [0,0] - X: 507, Y: -25
+Spawner [0,0] - X: 507, Y: 745
+Spawner [0,0] - X: 773, Y: -25
+Spawner [0,0] - X: 773, Y: 745
+Spawner [0,0] - X: 1039, Y: -25
+Spawner [0,0] - X: 1039, Y: 745
+Spawner [0,0] - X: -25, Y: 231
+Spawner [0,0] - X: 1305, Y: 231
+Enemy Pos - [-25, 231]; Enemy Speed - 5; Enemy Velocity - [-2147483648, 1073741824]
+Enemy Pos - [40, 246]; Enemy Speed - 5; Enemy Velocity - [-536870912, -536870912]
+Enemy Pos - [100, 261]; Enemy Speed - 5; Enemy Velocity - [-2147483648, -1073741824]
+Enemy Pos - [160, 276]; Enemy Speed - 5; Enemy Velocity - [-536870912, -2147483648]
+Enemy Pos - [220, 291]; Enemy Speed - 5; Enemy Velocity - [1073741824, 536870912]
+Score: 1
+Enemy Pos - [-25, -25]; Enemy Speed - 5; Enemy Velocity - [1610612736, 536870912]
+Enemy Pos - [40, 13]; Enemy Speed - 5; Enemy Velocity - [1073741824, -1610612736]
+Enemy Pos - [100, 43]; Enemy Speed - 5; Enemy Velocity - [-1610612736, -2147483648]
+Enemy Pos - [160, 73]; Enemy Speed - 5; Enemy Velocity - [0, 1610612736]
+Score: 2
+Enemy Pos - [-25, 231]; Enemy Speed - 5; Enemy Velocity - [-536870912, -1073741824]
+Enemy Pos - [40, 231]; Enemy Speed - 5; Enemy Velocity - [-1073741824, -1610612736]
+Enemy Pos - [100, 231]; Enemy Speed - 5; Enemy Velocity - [-1073741824, 1610612736]
+Enemy Pos - [160, 231]; Enemy Speed - 5; Enemy Velocity - [536870912, 0]
+Score: 3
+Enemy Pos - [220, 246]; Enemy Speed - 5; Enemy Velocity - [-1073741824, -1073741824]
+Enemy Pos - [507, -25]; Enemy Speed - 5; Enemy Velocity - [-536870912, 1073741824]
+Enemy Pos - [522, 40]; Enemy Speed - 5; Enemy Velocity - [-1610612736, 0]
+Enemy Pos - [552, 100]; Enemy Speed - 5; Enemy Velocity - [-536870912, 1610612736]
+Enemy Pos - [582, 160]; Enemy Speed - 5; Enemy Velocity - [1073741824, 1073741824]
+Score: 4
+Level 2 reached
+Enemy Pos - [507, -25]; Enemy Speed - 6; Enemy Velocity - [0, -1610612736]
+Enemy Pos - [522, 54]; Enemy Speed - 6; Enemy Velocity - [-2147483648, 1610612736]
+Score: 5
+Enemy Pos - [537, 129]; Enemy Speed - 6; Enemy Velocity - [536870912, -2147483648]
+Enemy Pos - [-25, 231]; Enemy Speed - 6; Enemy Velocity - [1610612736, 1073741824]
+Enemy Pos - [54, 231]; Enemy Speed - 6; Enemy Velocity - [-1610612736, -1610612736]
+Enemy Pos - [129, 231]; Enemy Speed - 6; Enemy Velocity - [0, -536870912]
+Enemy Pos - [204, 231]; Enemy Speed - 6; Enemy Velocity - [-536870912, -1073741824]
+Score: 6
+Enemy Pos - [1039, -25]; Enemy Speed - 6; Enemy Velocity - [1073741824, 1073741824]
+Enemy Pos - [964, 26]; Enemy Speed - 6; Enemy Velocity - [0, 1073741824]
+Score: 7
+Enemy Pos - [773, -25]; Enemy Speed - 6; Enemy Velocity - [-536870912, -536870912]
+Enemy Pos - [713, 40]; Enemy Speed - 6; Enemy Velocity - [-2147483648, -1073741824]
+Enemy Pos - [653, 115]; Enemy Speed - 6; Enemy Velocity - [0, -2147483648]
+Enemy Pos - [593, 190]; Enemy Speed - 6; Enemy Velocity - [-1610612736, 0]
+Score: 8
+Level 3 reached
+Enemy Pos - [-25, -25]; Enemy Speed - 6; Enemy Velocity - [-2147483648, -536870912]
+Enemy Pos - [773, -25]; Enemy Speed - 6; Enemy Velocity - [-1073741824, -1610612736]
+Enemy Pos - [54, 13]; Enemy Speed - 6; Enemy Velocity - [1610612736, -1610612736]
+Enemy Pos - [743, 54]; Enemy Speed - 6; Enemy Velocity - [-536870912, -1610612736]
+Enemy Pos - [129, 43]; Enemy Speed - 6; Enemy Velocity - [-536870912, 0]
+Enemy Pos - [713, 129]; Enemy Speed - 6; Enemy Velocity - [-1610612736, -2147483648]
+Score: 9
+Enemy Pos - [204, 73]; Enemy Speed - 6; Enemy Velocity - [-2147483648, -1610612736]
+Enemy Pos - [279, 118]; Enemy Speed - 6; Enemy Velocity - [-1610612736, -2147483648]
+Enemy Pos - [354, 163]; Enemy Speed - 6; Enemy Velocity - [-536870912, -1073741824]
+Enemy Pos - [429, 208]; Enemy Speed - 6; Enemy Velocity - [-1073741824, 536870912]
+Score: 10
+Enemy Pos - [773, -25]; Enemy Speed - 6; Enemy Velocity - [1073741824, -2147483648]
+Enemy Pos - [1305, 231]; Enemy Speed - 6; Enemy Velocity - [0, -1610612736]
+Enemy Pos - [758, 54]; Enemy Speed - 6; Enemy Velocity - [536870912, 0]
+Enemy Pos - [1215, 246]; Enemy Speed - 6; Enemy Velocity - [1073741824, -2147483648]
+Enemy Pos - [743, 129]; Enemy Speed - 6; Enemy Velocity - [0, -1073741824]
+Enemy Pos - [1125, 261]; Enemy Speed - 6; Enemy Velocity - [1610612736, 1073741824]
+Score: 11
+Enemy Pos - [1035, 276]; Enemy Speed - 6; Enemy Velocity - [1073741824, -1610612736]
+Enemy Pos - [945, 291]; Enemy Speed - 6; Enemy Velocity - [-2147483648, -2147483648]
+Enemy Pos - [855, 291]; Enemy Speed - 6; Enemy Velocity - [-2147483648, 1073741824]
+Enemy Pos - [765, 306]; Enemy Speed - 6; Enemy Velocity - [536870912, -1073741824]
+Score: 12
+Level 4 reached
+Enemy Pos - [241, 745]; Enemy Speed - 7; Enemy Velocity - [536870912, 0]
+Enemy Pos - [1039, 745]; Enemy Speed - 7; Enemy Velocity - [-1610612736, -1610612736]
+Enemy Pos - [301, 655]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -536870912]
+Enemy Pos - [949, 670]; Enemy Speed - 7; Enemy Velocity - [536870912, 0]
+Enemy Pos - [361, 565]; Enemy Speed - 7; Enemy Velocity - [-1073741824, 0]
+Enemy Pos - [874, 580]; Enemy Speed - 7; Enemy Velocity - [1610612736, 1610612736]
+Score: 13
+Enemy Pos - [421, 475]; Enemy Speed - 7; Enemy Velocity - [1073741824, -1073741824]
+Enemy Pos - [481, 385]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -1073741824]
+Score: 14
+Enemy Pos - [-25, 745]; Enemy Speed - 7; Enemy Velocity - [1073741824, 1073741824]
+Enemy Pos - [-25, 231]; Enemy Speed - 7; Enemy Velocity - [536870912, -1610612736]
+Enemy Pos - [54, 685]; Enemy Speed - 7; Enemy Velocity - [-1610612736, -1073741824]
+Enemy Pos - [68, 246]; Enemy Speed - 7; Enemy Velocity - [536870912, -1073741824]
+Enemy Pos - [144, 625]; Enemy Speed - 7; Enemy Velocity - [-2147483648, 536870912]
+Enemy Pos - [158, 261]; Enemy Speed - 7; Enemy Velocity - [-1610612736, 0]
+Enemy Pos - [219, 565]; Enemy Speed - 7; Enemy Velocity - [536870912, -1073741824]
+Enemy Pos - [248, 261]; Enemy Speed - 7; Enemy Velocity - [536870912, -536870912]
+Enemy Pos - [294, 490]; Enemy Speed - 7; Enemy Velocity - [-1610612736, -536870912]
+Enemy Pos - [338, 276]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -1610612736]
+Score: 15
+Enemy Pos - [369, 415]; Enemy Speed - 7; Enemy Velocity - [0, -1073741824]
+Enemy Pos - [444, 355]; Enemy Speed - 7; Enemy Velocity - [0, 1073741824]
+Score: 16
+Level 5 reached
+Enemy Pos - [-25, 745]; Enemy Speed - 7; Enemy Velocity - [-1610612736, 1610612736]
+Enemy Pos - [1039, -25]; Enemy Speed - 7; Enemy Velocity - [1073741824, 0]
+Enemy Pos - [68, 685]; Enemy Speed - 7; Enemy Velocity - [536870912, -536870912]
+Enemy Pos - [949, 40]; Enemy Speed - 7; Enemy Velocity - [536870912, 536870912]
+Score: 17
+Enemy Pos - [143, 610]; Enemy Speed - 7; Enemy Velocity - [536870912, -1073741824]
+Enemy Pos - [859, 100]; Enemy Speed - 7; Enemy Velocity - [-1610612736, -1610612736]
+Enemy Pos - [218, 535]; Enemy Speed - 7; Enemy Velocity - [-1073741824, 1610612736]
+Enemy Pos - [293, 475]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -1610612736]
+Enemy Pos - [383, 430]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -536870912]
+Score: 18
+Enemy Pos - [507, 745]; Enemy Speed - 7; Enemy Velocity - [-1610612736, 1610612736]
+Enemy Pos - [1039, -25]; Enemy Speed - 7; Enemy Velocity - [0, -1073741824]
+Enemy Pos - [552, 640]; Enemy Speed - 7; Enemy Velocity - [-536870912, -1610612736]
+Enemy Pos - [964, 54]; Enemy Speed - 7; Enemy Velocity - [1610612736, 0]
+Enemy Pos - [582, 535]; Enemy Speed - 7; Enemy Velocity - [-2147483648, -536870912]
+Enemy Pos - [889, 129]; Enemy Speed - 7; Enemy Velocity - [-1610612736, -1073741824]
+Score: 19
+Enemy Pos - [552, 430]; Enemy Speed - 7; Enemy Velocity - [0, 0]
+Enemy Pos - [447, 370]; Enemy Speed - 7; Enemy Velocity - [536870912, 536870912]
+Score: 20
+Level 6 reached
+Enemy Pos - [-25, -25]; Enemy Speed - 8; Enemy Velocity - [0, -536870912]
+Enemy Pos - [507, 745]; Enemy Speed - 8; Enemy Velocity - [1610612736, 0]
+Enemy Pos - [1305, 231]; Enemy Speed - 8; Enemy Velocity - [536870912, 1073741824]
+Enemy Pos - [54, 54]; Enemy Speed - 8; Enemy Velocity - [-1610612736, 536870912]
+Enemy Pos - [492, 625]; Enemy Speed - 8; Enemy Velocity - [-1073741824, -1073741824]
+Enemy Pos - [1185, 261]; Enemy Speed - 8; Enemy Velocity - [-1610612736, -2147483648]
+Enemy Pos - [144, 114]; Enemy Speed - 8; Enemy Velocity - [1610612736, 1610612736]
+Enemy Pos - [552, 520]; Enemy Speed - 8; Enemy Velocity - [0, 1073741824]
+Enemy Pos - [1065, 276]; Enemy Speed - 8; Enemy Velocity - [1610612736, -1610612736]
+Enemy Pos - [249, 144]; Enemy Speed - 8; Enemy Velocity - [-1073741824, 0]
+Enemy Pos - [612, 415]; Enemy Speed - 8; Enemy Velocity - [-1073741824, -1610612736]
+Enemy Pos - [945, 276]; Enemy Speed - 8; Enemy Velocity - [0, 1073741824]
+Score: 21
+Enemy Pos - [612, 295]; Enemy Speed - 8; Enemy Velocity - [536870912, -536870912]
+Enemy Pos - [825, 231]; Enemy Speed - 8; Enemy Velocity - [536870912, 1073741824]
+Enemy Pos - [507, 220]; Enemy Speed - 8; Enemy Velocity - [1610612736, -536870912]
+Enemy Pos - [705, 216]; Enemy Speed - 8; Enemy Velocity - [1610612736, 1610612736]
+Enemy Pos - [-25, -25]; Enemy Speed - 8; Enemy Velocity - [0, -1073741824]
+Enemy Pos - [-25, 745]; Enemy Speed - 8; Enemy Velocity - [-536870912, 1610612736]
+Enemy Pos - [402, 280]; Enemy Speed - 8; Enemy Velocity - [1610612736, 1073741824]
+Enemy Pos - [773, -25]; Enemy Speed - 8; Enemy Velocity - [-536870912, -1610612736]
+Enemy Pos - [585, 246]; Enemy Speed - 8; Enemy Velocity - [1610612736, 0]
+Enemy Pos - [26, 83]; Enemy Speed - 8; Enemy Velocity - [-536870912, 0]
+Enemy Pos - [54, 640]; Enemy Speed - 8; Enemy Velocity - [536870912, -2147483648]
+Enemy Pos - [312, 355]; Enemy Speed - 8; Enemy Velocity - [1610612736, 536870912]
+Enemy Pos - [668, 54]; Enemy Speed - 8; Enemy Velocity - [1073741824, -1610612736]
+Enemy Pos - [480, 306]; Enemy Speed - 8; Enemy Velocity - [-1610612736, -1073741824]
+Score: 22
+Enemy Pos - [56, 188]; Enemy Speed - 8; Enemy Velocity - [1073741824, 1610612736]
+Enemy Pos - [129, 550]; Enemy Speed - 8; Enemy Velocity - [1610612736, -1073741824]
+Enemy Pos - [578, 129]; Enemy Speed - 8; Enemy Velocity - [0, 536870912]
+Enemy Pos - [375, 366]; Enemy Speed - 8; Enemy Velocity - [-2147483648, -1610612736]
+Score: 23
+Score: 24
+Level 7 reached
+Enemy Pos - [116, 278]; Enemy Speed - 8; Enemy Velocity - [1073741824, 1610612736]
+Enemy Pos - [234, 580]; Enemy Speed - 8; Enemy Velocity - [536870912, -1610612736]
+Enemy Pos - [191, 353]; Enemy Speed - 8; Enemy Velocity - [-536870912, 536870912]
+Enemy Pos - [339, 580]; Enemy Speed - 8; Enemy Velocity - [536870912, -2147483648]
+Enemy Pos - [296, 383]; Enemy Speed - 8; Enemy Velocity - [-536870912, 536870912]
+Enemy Pos - [444, 535]; Enemy Speed - 8; Enemy Velocity - [536870912, -1073741824]
+Enemy Pos - [401, 383]; Enemy Speed - 8; Enemy Velocity - [-536870912, 1610612736]
+Enemy Pos - [549, 490]; Enemy Speed - 8; Enemy Velocity - [1073741824, -1073741824]
+Enemy Pos - [-25, 745]; Enemy Speed - 8; Enemy Velocity - [1610612736, -2147483648]
+Enemy Pos - [773, -25]; Enemy Speed - 8; Enemy Velocity - [0, 1610612736]
+Enemy Pos - [1305, 231]; Enemy Speed - 8; Enemy Velocity - [0, -2147483648]
+Score: 25
+Enemy Pos - [506, 368]; Enemy Speed - 8; Enemy Velocity - [536870912, 536870912]
+Enemy Pos - [83, 685]; Enemy Speed - 8; Enemy Velocity - [1610612736, -1610612736]
+Enemy Pos - [803, 83]; Enemy Speed - 8; Enemy Velocity - [-1073741824, 1610612736]
+Enemy Pos - [1185, 246]; Enemy Speed - 8; Enemy Velocity - [-2147483648, -2147483648]
+Enemy Pos - [611, 323]; Enemy Speed - 8; Enemy Velocity - [-1610612736, -1610612736]
+Enemy Pos - [173, 625]; Enemy Speed - 8; Enemy Velocity - [1610612736, 0]
+Enemy Pos - [878, 158]; Enemy Speed - 8; Enemy Velocity - [1610612736, -2147483648]
+Enemy Pos - [1065, 216]; Enemy Speed - 8; Enemy Velocity - [0, -1610612736]
+Score: 26
+Enemy Pos - [278, 565]; Enemy Speed - 8; Enemy Velocity - [-2147483648, 0]
+Enemy Pos - [878, 263]; Enemy Speed - 8; Enemy Velocity - [-2147483648, -2147483648]
+Enemy Pos - [945, 246]; Enemy Speed - 8; Enemy Velocity - [-536870912, 1610612736]
+Enemy Pos - [383, 535]; Enemy Speed - 8; Enemy Velocity - [0, -536870912]
+Enemy Pos - [507, -25]; Enemy Speed - 8; Enemy Velocity - [-536870912, 536870912]
+Enemy Pos - [507, 745]; Enemy Speed - 8; Enemy Velocity - [1073741824, 1073741824]
+Enemy Pos - [908, 368]; Enemy Speed - 8; Enemy Velocity - [-536870912, -1610612736]
+Enemy Pos - [-25, 231]; Enemy Speed - 8; Enemy Velocity - [0, 1073741824]
+Enemy Pos - [930, 351]; Enemy Speed - 8; Enemy Velocity - [-1610612736, -1073741824]
+Enemy Pos - [488, 535]; Enemy Speed - 8; Enemy Velocity - [1073741824, 1610612736]
+Enemy Pos - [567, 68]; Enemy Speed - 8; Enemy Velocity - [-1610612736, 1610612736]
+Enemy Pos - [612, 685]; Enemy Speed - 8; Enemy Velocity - [1073741824, 536870912]
+Enemy Pos - [908, 473]; Enemy Speed - 8; Enemy Velocity - [-536870912, -1610612736]
+Enemy Pos - [83, 261]; Enemy Speed - 8; Enemy Velocity - [1610612736, 0]
+Enemy Pos - [915, 456]; Enemy Speed - 8; Enemy Velocity - [1610612736, -1610612736]
+Score: 27
+Score: 28
+Level 8 reached
+Enemy Pos - [593, 580]; Enemy Speed - 9; Enemy Velocity - [1610612736, 1610612736]
+Enemy Pos - [597, 173]; Enemy Speed - 9; Enemy Velocity - [-1073741824, -536870912]
+Enemy Pos - [717, 655]; Enemy Speed - 9; Enemy Velocity - [-1073741824, -536870912]
+Enemy Pos - [173, 321]; Enemy Speed - 9; Enemy Velocity - [1073741824, 536870912]
+Enemy Pos - [698, 625]; Enemy Speed - 9; Enemy Velocity - [-1073741824, 0]
+Enemy Pos - [627, 278]; Enemy Speed - 9; Enemy Velocity - [0, -2147483648]
+Enemy Pos - [822, 655]; Enemy Speed - 9; Enemy Velocity - [536870912, 536870912]
+Enemy Pos - [263, 366]; Enemy Speed - 9; Enemy Velocity - [-536870912, -2147483648]
+Enemy Pos - [-25, -25]; Enemy Speed - 9; Enemy Velocity - [536870912, 1073741824]
+Enemy Pos - [818, 640]; Enemy Speed - 9; Enemy Velocity - [-2147483648, 1610612736]
+Enemy Pos - [702, 383]; Enemy Speed - 9; Enemy Velocity - [-1073741824, -536870912]
+Enemy Pos - [942, 655]; Enemy Speed - 9; Enemy Velocity - [1073741824, 1610612736]
+Enemy Pos - [1039, -25]; Enemy Speed - 9; Enemy Velocity - [1610612736, 1073741824]
+Enemy Pos - [1039, 745]; Enemy Speed - 9; Enemy Velocity - [-2147483648, -2147483648]
+Enemy Pos - [383, 411]; Enemy Speed - 9; Enemy Velocity - [0, 536870912]
+Enemy Pos - [97, 40]; Enemy Speed - 9; Enemy Velocity - [536870912, -536870912]
+Enemy Pos - [938, 580]; Enemy Speed - 9; Enemy Velocity - [-1073741824, -2147483648]
+Enemy Pos - [822, 428]; Enemy Speed - 9; Enemy Velocity - [0, -1073741824]
+Enemy Pos - [1032, 550]; Enemy Speed - 9; Enemy Velocity - [-1610612736, 0]
+Enemy Pos - [1039, 97]; Enemy Speed - 9; Enemy Velocity - [0, 0]
+Enemy Pos - [1054, 610]; Enemy Speed - 9; Enemy Velocity - [-1610612736, 536870912]
+Enemy Pos - [503, 426]; Enemy Speed - 9; Enemy Velocity - [536870912, -1073741824]
+Enemy Pos - [217, 70]; Enemy Speed - 9; Enemy Velocity - [-1073741824, -1073741824]
+Enemy Pos - [1028, 490]; Enemy Speed - 9; Enemy Velocity - [1610612736, 1610612736]
+Enemy Pos - [942, 413]; Enemy Speed - 9; Enemy Velocity - [1073741824, 0]
+Enemy Pos - [1107, 445]; Enemy Speed - 9; Enemy Velocity - [1073741824, 0]
+Enemy Pos - [1084, 217]; Enemy Speed - 9; Enemy Velocity - [-536870912, -2147483648]
+Enemy Pos - [1099, 475]; Enemy Speed - 9; Enemy Velocity - [1610612736, -1610612736]
+Enemy Pos - [623, 411]; Enemy Speed - 9; Enemy Velocity - [1610612736, -536870912]
+Collision: [1080, 215] == [1080, 225]

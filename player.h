@@ -7,6 +7,11 @@
 
 // Project Headers
 #include "vector.h"
+#include "bullet_container.h"
+#include "level.h"
+#include "score.h"
+#include "utilities.h"
+#include "sprite.h"
 
 
 
@@ -16,28 +21,34 @@ class World;
 // Class
 class Player {
 private:
-	Vector velocity;
-	SDL_Rect body;
 
 public:
 	Player();
 
 	int x, y;
 	int height, width;
+	SDL_Rect body;
+	Sprite sprite;
 	
 	int colour[3];
 	int alpha;
 	
 	bool moveUp, moveLeft, moveDown, moveRight;
-	bool shoot;
+	
+	Vector velocity;
 	int accelRate, decelRate, maxVelocity;
+
+	bool shoot;
+	BulletContainer bulletContainer;
+
+	Score score;
 
 	World* parent;
 
-	void Init();
+	void Init(SDL_Renderer* renderer);
 	void Input(int pressedKey, bool isPressed);
 	void Update();
-	void Render();
+	void Render(SDL_Renderer* renderer);
 };
 
 // End of Define Guard

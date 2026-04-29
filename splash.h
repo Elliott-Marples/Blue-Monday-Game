@@ -11,14 +11,19 @@
 class Splash {
 private:
 	int time;
+
 	Sprite title;
+	int titleWidth = 1280;
+	int titleHeight = 720;
+	int titleSize = 1;
 
 public:
 	Splash();
 
+	SDL_Window* window;
 	SDL_Renderer* renderer;
 
-	void Init(SDL_Renderer* renderer);
+	void Init(SDL_Window* window, SDL_Renderer* renderer);
 	void Render();
 };
 

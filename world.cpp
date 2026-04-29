@@ -9,12 +9,30 @@ World::World() {
 }
 
 // Clears screen to black
-void World::Init(SDL_Window* window, SDL_Renderer* renderer) {
+void World::Init(SDL_Window* window, SDL_Renderer* renderer, std::vector<Mix_Music*> audio) {
 	this->window = window;
 	this->renderer = renderer;
+	this->endTicks = 60000 + SDL_GetTicks();
 
-	player.Init();
+	SDL_GetWindowSize(window, &maxBoundX, &maxBoundY);
+
 	player.parent = this;
+	player.Init(renderer);
+
+	music.parent = this;
+	music.Init(audio);
+
+	enemySpawnerContainer.parent = this;
+	enemySpawnerContainer.Init(frameRate);
+
+	collisionHandler.parent = this;
+	collisionHandler.Init(frameRate, &enemySpawnerContainer, &player);
+
+	level.parent = this;
+	level.Init();
+
+	// Randomiser
+	srand(time(0));
 
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 	SDL_RenderClear(renderer);
@@ -23,6 +41,14 @@ void World::Init(SDL_Window* window, SDL_Renderer* renderer) {
 // Runs gameloop with a fixed framerate
 void World::Run() {
 	while (!done) {
+		if (SDL_GetTicks() >= endTicks) {
+			done = true;
+			win = true;
+			printf("Finished at %i secs", endTicks / 1000);
+			SDL_Log("Finished at %i secs", endTicks / 1000);
+			break;
+		}
+
 		timer.Reset();
 
 		Input();
@@ -33,6 +59,9 @@ void World::Run() {
 			SDL_Delay(DELTA_TIME - timer.Get());
 		}
 	}
+	
+	end.Init(window, renderer, win);
+	end.Run();
 }
 
 // Checks for inputs
@@ -74,6 +103,17 @@ void World::Input() {
 				pressedKeys[SDLK_d] = true;
 				player.Input(SDLK_d, true);
 				break;
+
+			case SDLK_f:
+				if (!fullscreen) {
+					fullscreen = true;
+					SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN);
+				}
+				else {
+					fullscreen = false;
+					SDL_SetWindowFullscreen(window, 0);
+				}
+				break;
 			}
 		}
 
@@ -111,6 +151,9 @@ void World::Input() {
 // Updates game world
 void World::Update() {
 	player.Update();
+	music.Update();
+	enemySpawnerContainer.Update();
+	collisionHandler.Update();
 }
 
 // Renders objects to screen
@@ -118,13 +161,18 @@ void World::Render() {
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 	SDL_RenderClear(renderer);
 
-	player.Render();
+	player.Render(renderer);
+	enemySpawnerContainer.Render(renderer);
 
 	SDL_RenderPresent(renderer);
 }
 
 // Destroys renderer and window
 void World::Quit() {
+	if (music.audio[music.track]) {
+		music.Quit();
+	}
+
 	if (renderer) {
 		SDL_DestroyRenderer(renderer);
 	}

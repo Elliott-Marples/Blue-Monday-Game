@@ -9,7 +9,7 @@ Vector::Vector() {
 	y = 0;
 }
 
-Vector::Vector(int x, int y) {
+Vector::Vector(float x, float y) {
 	this->x = x;
 	this->y = y;
 }

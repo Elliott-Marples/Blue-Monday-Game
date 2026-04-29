@@ -6,9 +6,9 @@
 class Vector {
 public:
 	Vector();
-	Vector(int x, int y);
+	Vector(float x, float y);
 
-	int x, y;
+	float x, y;
 	float getMagnitude();
 };
 

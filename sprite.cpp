@@ -4,7 +4,13 @@ Sprite::Sprite() {
 
 }
 
-void Sprite::Init(SDL_Renderer* renderer, int x, int y, int imgWidth, int imgHeight, float size, const char path[]) {
+Sprite::~Sprite() {
+	if (texture) {
+		SDL_DestroyTexture(texture);
+	}
+}
+
+void Sprite::Init(int x, int y, int imgWidth, int imgHeight, float size) {
 	this->x = x;
 	this->y = y;
 	this->width = imgWidth * size;
@@ -13,17 +19,45 @@ void Sprite::Init(SDL_Renderer* renderer, int x, int y, int imgWidth, int imgHei
 	this->imgRect = { 0, 0, imgWidth, imgHeight };
 	this->bodyRect = { x, y, width, height };
 
-	this->renderer = renderer;
-	texture = IMG_LoadTexture(renderer, path);
+	if (texture) {
+		SDL_SetTextureAlphaMod(texture, 255);
+	}
 }
 
-void Sprite::Init(SDL_Renderer* renderer, int x, int y, int imgWidth, int imgHeight, float size, const char path[], int alpha) {
-	SDL_Surface* surface = IMG_Load(path);
+void Sprite::Init(const char path[], int alpha) {
+	surface = IMG_Load(path);
 	SDL_SetColorKey(surface, SDL_TRUE, alpha);
-	texture = SDL_CreateTextureFromSurface(renderer, surface);
-	SDL_FreeSurface(surface);
 }
 
-void Sprite::Render() {
+void Sprite::Update(int x, int y) {
+	this->x = x;
+	this->y = y;
+	bodyRect.x = x;
+	bodyRect.y = y;
+}
+
+void Sprite::Render(SDL_Renderer* renderer, const char path[]) {
+	if (!texture) {
+		if (!surface) {
+			texture = IMG_LoadTexture(renderer, path);
+		}
+		else {
+			texture = SDL_CreateTextureFromSurface(renderer, surface);
+		}
+	}
+	SDL_RenderCopy(renderer, texture, &imgRect, &bodyRect);
+}
+
+void Sprite::Render(SDL_Renderer* renderer, int r, int g, int b, int alpha, const char path[]) {
+	if (!texture) {
+		if (!surface) {
+			texture = IMG_LoadTexture(renderer, path);
+		}
+		else {
+			texture = SDL_CreateTextureFromSurface(renderer, surface);
+		}
+	}
+	SDL_SetTextureAlphaMod(texture, alpha);
+	SDL_SetTextureColorMod(texture, r, g, b);
 	SDL_RenderCopy(renderer, texture, &imgRect, &bodyRect);
 }
